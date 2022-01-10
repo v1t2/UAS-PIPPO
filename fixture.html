@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>MY WEB</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    .header {
+      padding: 10px;
+      text-align: center;
+      background: #DC143C;
+    }
+
+    .header h1 {
+      font-size: 50px;
+      font-family: impact;
+    }
+
+    .header p {
+      font-size: 25px;
+      font-family: Lucida Bright;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #FFA07A;
+      background: #8B0000;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 8px 10px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .leftcolumn {
+      float: left;
+      width: 100%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      color: #000000;
+    }
+
+    .footer {
+      padding: 1px;
+      text-align: center;
+      background: #8B0000;
+      margin-top: 140px;
+      color: #f2f2f2;
+    }
+
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>Capolista United</h1>
+  <p><i><marquee direction="right">"Vini, Vidi, Vici, Glory"</marquee></i></p>
+</div>
+
+<div class="topnav">
+  <a href="main.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="fixture.html">Fixture</a>
+  <a href="players.html">Players</a>
+  <a href="ticket.html">Ticket</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+
+  <br>
+  <h1>All Fixtures*</h1>
+  <br>
+  <h2>Januari</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Club</th>
+        <th>Place</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>4 Januari 2022</td>
+        <td>Wolverhampton Wanderers</td>
+        <td>Home (H)</td>
+      </tr>
+      <tr>
+        <td>11 Januari 2022</td>
+        <td>Aston Villa</td>
+        <td>Home (H)</td>
+      </tr>
+      <tr>
+        <td>16 Januari 2022</td>
+        <td>Aston Villa</td>
+        <td>Away (A)</td>
+      </tr>
+      <tr>
+        <td>22 Januari 2022</td>
+        <td>West Ham</td>
+        <td>Home (H)</td>
+      </tr>
+    </tbody>
+  </table>
+  <center><h10>*All fixtures will be update every month</h10></center>
+</br>
+  </br>
+  </div>
+</div>
+
+<div class="footer"> <h6>2022 &copy; Muhammad Pippo Vitaerelly</h6>
+</div>
+</body>
+</html>

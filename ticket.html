@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>MY WEB</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    .header {
+      padding: 10px;
+      text-align: center;
+      background: #DC143C;
+    }
+
+    .header h1 {
+      font-size: 50px;
+      font-family: impact;
+    }
+
+    .header p {
+      font-size: 25px;
+      font-family: Lucida Bright;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #FFA07A;
+      background: #8B0000;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 8px 10px;
+      text-decoration: none;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .leftcolumn {
+      float: left;
+      width: 100%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      color: #000000;
+    }
+
+    .footer {
+      padding: 1px;
+      text-align: center;
+      background: #8B0000;
+      margin-top: 140px;
+      color: #f2f2f2;
+    }
+
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>Capolista United</h1>
+  <p><i><marquee direction="right">"Vini, Vidi, Vici, Glory"</marquee></i></p>
+</div>
+
+<div class="topnav">
+  <a href="main.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="fixture.html">Fixture</a>
+  <a href="players.html">Players</a>
+  <a href="ticket.html">Ticket</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+
+  <br>
+  <div class="container">
+  <h1>Ticket Reservation</h1>
+  <form>
+    <div class="form-group">
+      <label for="nama">Name:</label>
+      <input type="text" class="form-control">
+    </div>
+     <div class="form-group">
+      <label for="umur">Age:</label>
+      <input type="text" class="form-control">
+    </div>
+<div class="form-group">
+      <label for="jk">Male/Female:</label>
+      <select class="form-control" id="jk">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+     <div class="form-group">
+      <label for="id">ID Card Number:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="tiket">Ticket type:</label>
+      <select class="form-control" id="jk">
+        <option>Season</option>
+        <option>Only a matchday</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="alamat">Address:</label>
+      <textarea type="text" class="form-control" id="alamat"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="pay">Payment Type:</label>
+      <select class="form-control" id="jk">
+        <option>Cash</option>
+        <option>Credit Card</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Process</button>
+  </form>
+</div>
+  </br>
+  </div>
+</div>
+
+<div class="footer"> <h6>2022 &copy; Muhammad Pippo Vitaerelly</h6>
+</div>
+</body>
+</html>
